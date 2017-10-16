@@ -160,7 +160,7 @@ The model was able to correctly guess 3 of the 5 traffic signs, which gives an a
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. 
+For the first image ... the model is relatively sure that this is a road work sign
 
 The top five soft max probabilities were [25 30 22 29 20]
 
@@ -173,7 +173,7 @@ The top five soft max probabilities were [25 30 22 29 20]
 | .051					| Dangerous curve to the right      			|
 
 
-For the second image ... 
+For the second image ... the model is relatively sure that this is a stop sign
 The top five soft max probabilities were  [14  5 38  3  1]
 | Probability         	|     Prediction								| 
 |:---------------------:|:---------------------------------------------:| 
@@ -183,7 +183,7 @@ The top five soft max probabilities were  [14  5 38  3  1]
 | .070					| Speed limit (60km/h)				 			|
 | .019					| Speed limit (20km/h)      					|
 
-For the third image ...
+For the third image ... the model is inaccurately sure that this is  bicyles crossing sign
 The top five soft max probabilities were  [29 23 30 28 31]
 | Probability         	|     Prediction								| 
 |:---------------------:|:---------------------------------------------:| 
@@ -193,7 +193,7 @@ The top five soft max probabilities were  [29 23 30 28 31]
 | .031					| Children crossing				 				|
 | .036					| Wild animals crossing      					|
 
-For the 4th image ... 
+For the 4th image ... The model is sure that this is wild animals crossing
 The top five soft max probabilities were  [31 23 21 30 25]
 | Probability         	|     Prediction								|
 |:---------------------:|:---------------------------------------------:| 
@@ -203,7 +203,7 @@ The top five soft max probabilities were  [31 23 21 30 25]
 | .00003				| Beware of ice/snow				 			|
 | .00001				| Road work      								|
 
-For the 5th image ... 
+For the 5th image ... the model is predicting with ONLY 30% chance its a priority road when the correct prediction would be mandatory aroundabout which only has a 10% probability 
 The top five soft max probabilities were  [12 13  8 40 38]]
 | Probability         	|     Prediction								| 
 |:---------------------:|:---------------------------------------------:| 
